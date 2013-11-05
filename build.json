@@ -1,0 +1,28 @@
+{
+   "layers": {
+    "country": {
+       "src": "o_fixed.shp",
+       "join": true
+     },
+     "county": {
+       "src": "o_fixed.shp",
+       "join": {
+           "group-by": "MKOOD"
+       },
+       "attributes": {
+           "id": "MNIMI",
+           "okood": "MKOOD"
+       }
+     },
+     "parish": {
+       "src": "o_fixed.shp",
+       "attributes": {
+           "id": "ONIMI",
+           "okood": "OKOOD"
+       }
+     }
+   },
+   "proj": {
+       "id": "mercator"
+   }
+}

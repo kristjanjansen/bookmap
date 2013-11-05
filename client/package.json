@@ -1,0 +1,12 @@
+{
+  "volo": {
+    "baseUrl": "vendor",
+    "dependencies": {
+      "jquery": "github:jquery/jquery/2.0.3",
+      "raphael": "github:DmitryBaranovskiy/raphael/v2.1.2",
+      "chroma": "github:gka/chroma.js/v0.5.3",
+      "kartograph": "github:kartograph/kartograph.js/v0.8.2",
+      "miso.ds.deps.min.0.4.1": "https://raw.github.com/misoproject/dataset/master/dist/miso.ds.deps.min.0.4.1.js"
+    }
+  }
+}
