@@ -1,0 +1,7 @@
+{
+  "volo": {
+    "dependencies": {
+      "tipsy": "github:jaz303/tipsy/v0.1.7"
+    }
+  }
+}
