@@ -1,4 +1,4 @@
-### Requirements for OSX
+### Requirements
 
 Homebrew and NodeJS
 
@@ -22,11 +22,15 @@ sudo pip install -r https://raw.github.com/kartograph/kartograph.py/master/requi
 sudo pip install https://github.com/kartograph/kartograph.py/zipball/master
 ```
 
-And now you can run mapbuilder:
+### Build map
 
 ```
-git clone https://gist.github.com/7298899.git
-cd 7298899
-chmod +x mapbuilder.sh
-./mapbuilder.sh
+git clone https://github.com/kristjanjansen/ak_map
+cd ak_map
+chmod +x build.sh
+./build.sh
 ```
+
+### View map
+
+Point browser to ```client/index.html```

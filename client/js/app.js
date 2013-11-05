@@ -54,7 +54,7 @@ map.loadMap('map.svg', function() {
   });
 
   
-}, {padding: 30});
+}, {padding: 20});
 
   }
 });
