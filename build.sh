@@ -7,7 +7,7 @@ unzip omavalitsus_shp.zip
 
 # Simplifying the data
 
-mapshaper -i 100 -p 0.5 --repair omavalitsus_20131101.shp -o o.shp
+mapshaper -i 100 -p 0.1 --repair omavalitsus_20131101.shp -o o.shp
 
 # Converting to the right projection (from EPSG:3301 to EPSG:4326)
 

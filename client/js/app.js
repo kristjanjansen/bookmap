@@ -33,7 +33,7 @@ map.loadMap('map.svg', function() {
   map.addLayer('country', {
     id: 'country-shadow',
     styles: {
-      stroke: '#fafafa',
+      stroke: '#eee',
       'stroke-width': 10,
       'stroke-linejoin': 'round'
     }
